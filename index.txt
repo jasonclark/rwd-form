@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Get Your Knowledge Card - jason a. clark</title>
+<link rel="alternate" type="application/rss+xml" title="diginit - jason clark" href="http://feeds.feedburner.com/diginit" />
+<link rel="stylesheet" href="/~jason/files/rwd-form/meta/styles/master.css">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body class="home" role="document" vocab="http://schema.org/" typeof="WebPage">
+<header role="banner" property="name description">
+<h1>Get Your Knowledge Card</h1>
+<h2>@YourLibrary</h2>
+</header>
+<div class="main">
+<main role="main">
+<form method="post" action="index.php">
+<input type="hidden" name="submitCheck" value="1" />
+<span id="access">
+  <label for="passField">omit field (bot test):</label>
+  <input id="passField" name="passField" type="text" autofill="off" />
+  <script>(function () { var e = document.getElementById("access"); e.parentNode.removeChild(e); })();</script>
+</span>
+<fieldset>
+  <label for="name">Enter full name:</label>
+  <input title="Enter full name" type="text" name="name" id="name" placeholder="full name" />
+  <label for="email">Enter email:</label>
+  <input title="Enter email" type="email" name="email" id="email" placeholder="email" />
+  <label for="birthday">Enter birthday using YYYY-MM-DD format:</label>
+  <input title="Enter birthday using YYYY-MM-DD format" type="text" pattern="^\d{4}-((0\d)|(1[012]))-(([012]\d)|3[01])$" name="birthday" id="birthday" placeholder="birthdate (YYYY-MM-DD)" />
+  <button type="submit" class="button">Sign me up</button>
+</fieldset>
+</form>
+</main>
+</div><!--end .main div-->
+<aside role="complementary">
+<nav role="navigation">
+<h3>Key:</h3>
+  <a href="./index.php">Home</a>
+  <a href="./what.php">What?</a>
+  <a href="./code.php">Code</a>
+  <a title="Bibliography by Suzanne Chapman (CC BY-NC-SA 2.0)" href="https://www.flickr.com/photos/sukisuki/4413551329/">Credit</a>
+  <a href="http://twitter.com/jaclark" class="twitter">@jaclark</a>
+</nav>
+</aside>
+</body>
+</html>
