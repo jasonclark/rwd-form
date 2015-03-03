@@ -63,8 +63,7 @@ elseif (isset($_POST['submitCheck']) && $_POST['submitCheck'] == 1):
 		exit();
 	}
 
-  $mailto = 'jaclark@montana.edu';
-  //$mailto = 'ENTER-YOUR-LIBRARY-CONTACT-EMAIL-HERE';
+        $mailto = 'ENTER-YOUR-LIBRARY-CONTACT-EMAIL-HERE';
 	echo '<p>Thanks for signing up for a library card, <strong>'.$name.'</strong>.</p>'."\n";
 	echo '<p>We\'ll be in touch when the card is ready.</p>'."\n";
 
